@@ -1,0 +1,204 @@
+/* Main Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #76ABAE;
+    color: #333;
+    line-height: 1.6;
+    background-image: url("media/headerIMG.jpg");
+}
+.intro button {
+    background-color: #FF8C00;
+    color: #000;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(34, 40, 49, 0.5); 
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navbar:hover {
+    background-color: white; /* Change to white on hover */
+}
+
+.nav-link {
+    color: #FF8C00;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 5px 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Header Section */
+header {
+    background: #31363F;
+    color: #fff;
+    background-image: url("media/headerIMG.jpg");
+    padding: 100px 10px 20px;
+    text-align: center;
+}
+
+
+.logoanc{
+    left: 0;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: "Headland One", serif;
+    font-weight: bold;
+    position: fixed;
+    color: #ffffff;
+    text-decoration: none;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+/* Project Section */
+#projects {
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FF8C00;
+}
+
+.project {
+    background: #EEEEEE;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px auto;
+    padding: 15px;
+    max-width: 600px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin: 15px 0 10px;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007acc;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/* .achievements {
+display: flex;
+border-bottom: 2px solid black;
+justify-content: space-around;
+align-items: center;
+padding: 40px 80px;
+}
+
+.achievements .work {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0 40px;
+}
+
+.achievements .work i {
+width: fit-content;
+font-size: 50px;
+color: #333333;
+border-radius: 50%;
+border: 2px solid #333333;
+padding: 12px;
+}
+
+.achievements .work .work-heading {
+font-size: 20px;
+color: #333333;
+text-transform: uppercase;
+margin: 10px 0;
+}
+
+.achievements .work .work-text {
+font-size: 15px;
+color: #585858;
+margin: 10px 0;
+} */
